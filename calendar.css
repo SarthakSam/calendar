@@ -1,0 +1,149 @@
+body{
+	/*height: 97vh;
+	width: 95vw;*/
+	display: flex; 
+	justify-content: space-around;
+		 background: 
+    repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px, rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px, rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px, rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px, rgba(255, 0, 0, 0.5) 300px), 
+    repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px, rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px, rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px, rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px, rgba(255, 0, 0, 0.5) 230px), 
+    repeating-linear-gradient(23deg, red 50px, orange 100px, yellow 150px, green 200px, blue 250px, indigo 300px, violet 350px, red 370px);
+
+}
+body nav{
+	height:750px;
+	width: 1300px;
+	position: relative;
+}
+h1{
+	margin-left: 42%;
+	font-size: 35px;
+}
+
+#heading > section{
+	width: 50%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+}
+
+#month{
+	margin-top:12%; 
+	height: 80%;
+	width: 70%;
+	background-color: lightblue;
+	font-size: 230%;
+	padding-left: 5%;
+}
+#year{
+	margin-top:12%;
+	height: 80%;
+	width: 70%;
+	background-color: lightblue;
+	font-size: 230%;
+}
+body  header{
+height: 20%;
+width: 100%;
+background-color: white; 
+}
+ 
+#heading{
+	display: flex; 
+	justify-content: space-between;
+}
+
+#heading div.ones{
+	height: 100%;
+	width: 25%;
+	background-color:green;
+	display: inline-flex;
+	align-content: center;
+	justify-content: space-between;
+}
+p{
+   font-size: 350%;	
+   color: purple;
+}
+#prevMonth {
+	margin-right: 15%;
+	height: 70%;
+	margin-top: 8%;
+	width: 30%;
+	font-size: 300%;
+}
+#prevYear {
+	margin-left: 20%;
+	height: 70%;
+	margin-top: 8%;
+	width: 30%;
+	font-size: 300%;
+}
+#nextMonth {
+	margin-left: 10%;
+	height: 70%;
+	margin-top: 8%;
+	width: 30%;
+	font-size: 300%;
+}
+#nextYear {
+	margin-right: 25%;
+	height: 70%;
+	margin-top: 8%;
+	width: 30%;
+	font-size: 300%;
+}
+body  main{
+height: 80%;
+width: 100%;
+background-color: green	;
+display: flex;
+justify-content: space-between;
+}
+main div{
+	font-size: 200%;
+}
+/*
+body main section{
+	height: 18%;
+	width: 100%
+	background-color:yellow;
+	}
+#days{
+	height: 9%;
+	background-color: lightblue;
+	font-size: 220%;
+
+}
+body main section div{
+height: 100%;
+width: 13.853%;
+    border-width: 1%;
+	border-style: solid;
+	border-color: brown;
+	display: inline-block;
+}*/
+
+
+body main section{
+	height: 100%;
+	width: 13.5%;
+	background-color: yellow;
+}
+#day{
+height: 10%;
+width: 100%;
+border-color:green;
+border-style: solid;
+font-size: 240%;
+background-color: pink;
+}
+
+body main section div{
+height: 16.77%;
+width: 100%;
+border-color:green;
+border-style: solid;
+display: block;
+}
+
+div.one
